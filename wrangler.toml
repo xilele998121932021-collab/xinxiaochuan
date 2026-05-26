@@ -1,0 +1,11 @@
+#:schema node_modules/wrangler/config-schema.json
+name = "xinxiaochuan"
+compatibility_date = "2024-05-24"
+compatibility_flags = ["nodejs_compat"]
+main = "src/index.ts"
+
+# 👇 在这里填入你的数据库信息
+[[d1_databases]]
+binding = "DB"
+database_name = "xinxiaochuan-db"
+database_id = "aaa7795b-bfdb-466d-a2f2-55a1aead570a"
